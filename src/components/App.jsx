@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Feedback from './Feedback/Feedback';
 import Statistics from './Statistics/Statistics';
 import Section from './Section/Section';
-import PropTypes from 'prop-types';
 
 class App extends Component {
   static propTypes = {
