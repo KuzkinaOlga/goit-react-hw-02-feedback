@@ -2,10 +2,10 @@ import React from 'react';
 
 const Feedback = ({ options, onLeaveFeedback }) => (
   <div>
-    {Object.keys(options).map((arNum, index) => {
+    {Object.keys(options).map((arNum, key) => {
       return (
         <button
-          key={index}
+          key={key}
           type="button"
           name={arNum}
           value={arNum}
